@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="46" id="KGk-i7-Jjw" customClass="SQImageNewsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="撒旦撒旦撒旦撒倒萨大" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9u-bB-6Ay">
+                        <rect key="frame" x="10" y="10" width="300" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="nsf-Gv-zie"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="其他类干货" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohu-PH-maP">
+                        <rect key="frame" x="10" y="40" width="70" height="15"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="6ed-Mh-1uO"/>
+                            <constraint firstAttribute="width" constant="70" id="BNe-5c-BPX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阅读2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfW-gP-JCo">
+                        <rect key="frame" x="80" y="40" width="70" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGv-hM-Tv3">
+                        <rect key="frame" x="10" y="60" width="240" height="49"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DR4-z1-MBW">
+                        <rect key="frame" x="260" y="59" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="UXu-z7-LbQ"/>
+                            <constraint firstAttribute="width" constant="50" id="hCI-ES-3rG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DR4-z1-MBW" secondAttribute="trailing" constant="10" id="2gH-uo-yU9"/>
+                    <constraint firstItem="yfW-gP-JCo" firstAttribute="bottom" secondItem="ohu-PH-maP" secondAttribute="bottom" id="38j-FH-hBN"/>
+                    <constraint firstItem="ohu-PH-maP" firstAttribute="top" secondItem="u9u-bB-6Ay" secondAttribute="bottom" constant="5" id="AQ6-XP-mAM"/>
+                    <constraint firstItem="u9u-bB-6Ay" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="F7B-BH-yaZ"/>
+                    <constraint firstItem="ohu-PH-maP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Jgr-cE-et7"/>
+                    <constraint firstAttribute="bottom" secondItem="DR4-z1-MBW" secondAttribute="bottom" constant="10" id="La7-rg-rPA"/>
+                    <constraint firstItem="yfW-gP-JCo" firstAttribute="width" secondItem="ohu-PH-maP" secondAttribute="width" id="Np7-A9-QMi"/>
+                    <constraint firstAttribute="trailing" secondItem="u9u-bB-6Ay" secondAttribute="trailing" constant="10" id="SQa-ks-RcR"/>
+                    <constraint firstItem="u9u-bB-6Ay" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Vca-dY-ku2"/>
+                    <constraint firstItem="vGv-hM-Tv3" firstAttribute="top" secondItem="yfW-gP-JCo" secondAttribute="bottom" constant="5" id="W6R-f7-RCu"/>
+                    <constraint firstItem="vGv-hM-Tv3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="fw0-eT-QH4"/>
+                    <constraint firstItem="yfW-gP-JCo" firstAttribute="leading" secondItem="ohu-PH-maP" secondAttribute="trailing" id="s8c-hI-Jfl"/>
+                    <constraint firstItem="DR4-z1-MBW" firstAttribute="leading" secondItem="vGv-hM-Tv3" secondAttribute="trailing" constant="10" id="sXS-4g-pi6"/>
+                    <constraint firstAttribute="bottom" secondItem="vGv-hM-Tv3" secondAttribute="bottom" constant="10" id="uz0-jy-Zgt"/>
+                    <constraint firstItem="yfW-gP-JCo" firstAttribute="top" secondItem="ohu-PH-maP" secondAttribute="top" id="znn-Tk-t4z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detail" destination="vGv-hM-Tv3" id="bud-cI-RGO"/>
+                <outlet property="image" destination="DR4-z1-MBW" id="Dng-dw-kHF"/>
+                <outlet property="number" destination="yfW-gP-JCo" id="XfI-YC-Jws"/>
+                <outlet property="title" destination="u9u-bB-6Ay" id="Csl-Cv-c8K"/>
+                <outlet property="type" destination="ohu-PH-maP" id="ziz-HW-SHw"/>
+            </connections>
+            <point key="canvasLocation" x="143" y="165"/>
+        </tableViewCell>
+    </objects>
+</document>
